@@ -2,7 +2,7 @@ import tkinter as tk
 import os
 from tkinter import messagebox
 import mysql.connector
-import admin
+import database.admin as admin
 
 folder = os.path.dirname(__file__)
 
