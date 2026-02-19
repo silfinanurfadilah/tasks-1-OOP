@@ -11,19 +11,19 @@ public class Edukasi {
 
     public static void main(String[] args) {
 
-        Edukasi eds = new Edukasi();
-        eds.idEdukasi = "23454321";
-        eds.judul = "sampah yang menggunung";
-        eds.isiPesan = "buanglah sampah pada tempatnya";
-        eds.tanggalKirim = "02-10-2026";
-        eds.idAdmin = "E093";
-        eds.idMasyarakat = "0009";
+        Edukasi Edukasi1 = new Edukasi();
+        Edukasi1.idEdukasi = "EDS08";
+        Edukasi1.judul = "sampah yang menggunung";
+        Edukasi1.isiPesan = "buanglah sampah pada tempatnya";
+        Edukasi1.tanggalKirim = "02-10-2026";
+        Edukasi1.idAdmin = "ADM93";
+        Edukasi1.idMasyarakat = "M009";
 
-        System.out.println("ID Edukasi : " + eds.idEdukasi);
-        System.out.println("Judul : " + eds.judul);
-        System.out.println("Isi Pesan : " + eds.isiPesan);
-        System.out.println("Tanggal Kirim : " + eds.tanggalKirim);
-        System.out.println("ID Admin : " + eds.idAdmin);
-        System.out.println("ID Masyarakat : " + eds.idMasyarakat);
+        System.out.println("ID Edukasi      : " + Edukasi1.idEdukasi);
+        System.out.println("Judul           : " + Edukasi1.judul);
+        System.out.println("Isi Pesan       : " + Edukasi1.isiPesan);
+        System.out.println("Tanggal Kirim   : " + Edukasi1.tanggalKirim);
+        System.out.println("ID Admin        : " + Edukasi1.idAdmin);
+        System.out.println("ID Masyarakat   : " + Edukasi1.idMasyarakat);
     }
 }
